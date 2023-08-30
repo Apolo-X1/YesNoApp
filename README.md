@@ -1,7 +1,9 @@
 # Interactive Chat with Memes - Flutter App <br><br>
 
 Welcome to the documentation of the Interactive Chat with Memes application! In this guide, we'll give you an overview of the app and show you how to set it up and run it on various devices.
+
 <hr>
+
 ## Description
 
 The "Interactive Chat with Memes" app is a unique chat platform that allows you to interact with another person in a fun and creative way. Instead of just exchanging text messages, this app allows you to ask questions and receive answers in the form of entertaining memes.

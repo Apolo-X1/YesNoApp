@@ -16,12 +16,16 @@ The "Interactive Chat with Memes" app is a unique chat platform that allows you 
 - Compatibility with multiple devices, including phones and tablets.
 - Integration with the "YesNo.wtf" API to get memes in response to your questions.
 
+<hr>
+
 ## Previous requirements
 
 Before you begin, make sure you have the following components installed:
 
 - [Flutter SDK](https://flutter.dev/docs/get-started/install)
 - [Dart SDK](https://dart.dev/get-dart)
+
+<hr>
 
 ## Setting
 
@@ -41,13 +45,19 @@ Before you begin, make sure you have the following components installed:
     ```bash
     flutter pub get
 
+<hr>
+
 ## Execution.
 You can run the app on different simulated or physical devices. Make sure you have an emulator set up or a physical device connected before proceeding.
 
 Run the app on an emulator or connected device.
+
 <hr>
+
 ## Contribution.
 If you would like to contribute to this app, we welcome you! Feel free to send pull requests with improvements, bug fixes or new features.
+
+<hr>
 
 ## Additional Resources.
 

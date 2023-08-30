@@ -38,7 +38,7 @@ Before you begin, make sure you have the following components installed:
 2. Navigate to the project directory.
 
     ```bash
-    cd chat_interactive_with_memes
+    cd Yes-No-App
     ```
 
 3. Install the project dependencies.

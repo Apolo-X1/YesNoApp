@@ -32,7 +32,7 @@ Before you begin, make sure you have the following components installed:
     ```bash
    cd chat_interactive_with_memes
 
-3.Install the project dependencies.
+3. Install the project dependencies.
 
     ```bash
     flutter pub get

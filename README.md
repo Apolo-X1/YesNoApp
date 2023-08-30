@@ -1,4 +1,4 @@
-# Interactive Chat with Memes - Flutter App
+# Interactive Chat with Memes - Flutter App <br><br><br>
 
 Welcome to the documentation of the Interactive Chat with Memes application! In this guide, we'll give you an overview of the app and show you how to set it up and run it on various devices.
 
@@ -37,7 +37,6 @@ Before you begin, make sure you have the following components installed:
     ```bash
     flutter pub get
 
-4. Open the lib/main.dart file in your preferred code editor to explore and customize the application to your needs.
 
 ## Execution.
 You can run the app on different simulated or physical devices. Make sure you have an emulator set up or a physical device connected before proceeding.

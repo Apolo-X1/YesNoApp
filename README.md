@@ -35,7 +35,7 @@ Before you begin, make sure you have the following components installed:
 3.Install the project dependencies.
 
     ```bash
-   flutter pub get
+    flutter pub get
 
 4. Open the lib/main.dart file in your preferred code editor to explore and customize the application to your needs.
 

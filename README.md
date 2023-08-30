@@ -1,9 +1,10 @@
-# <p align="center">Interactive Chat with Memes - Flutter App</p>
+<center>
+
+# Interactive Chat with Memes - Flutter App
 
 Welcome to the documentation of the Interactive Chat with Memes application! In this guide, we'll give you an overview of the app and show you how to set it up and run it on various devices.
 
 <hr>
-
 
 ## Description
 
@@ -31,36 +32,40 @@ Before you begin, make sure you have the following components installed:
 ## Setting
 
 1. Clone this repository to your local machine.
-   
+
     ```bash
     https://github.com/Apollo-X1/Yes-No-App.git
+    ```
 
+2. Navigate to the project directory.
 
-2. Navigate to the project directory
-   
     ```bash
-   cd chat_interactive_with_memes
+    cd chat_interactive_with_memes
+    ```
 
 3. Install the project dependencies.
 
     ```bash
     flutter pub get
+    ```
 
 <hr>
 
-## Execution.
+## Execution
+
 You can run the app on different simulated or physical devices. Make sure you have an emulator set up or a physical device connected before proceeding.
 
 Run the app on an emulator or connected device.
 
 <hr>
 
-## Contribution.
-If you would like to contribute to this app, we welcome you! Feel free to send pull requests with improvements, bug fixes or new features.
+## Contribution
+
+If you would like to contribute to this app, we welcome you! Feel free to send pull requests with improvements, bug fixes, or new features.
 
 <hr>
 
-## Additional Resources.
+## Additional Resources
 
 Here you will find useful links and additional resources to better understand the application and the technologies used:
 
@@ -85,3 +90,6 @@ Here you will find useful links and additional resources to better understand th
 Enjoy your experience using the Interactive Chat application with Memes! If you have any questions or face any issues, feel free to contact our support team.
 
 Have fun chatting and sharing memes! 🎉🤖📱
+
+</center>
+

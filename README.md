@@ -1,7 +1,8 @@
-# Interactive Chat with Memes - Flutter App <br><br>
+# Interactive Chat with Memes - Flutter App
 
 Welcome to the documentation of the Interactive Chat with Memes application! In this guide, we'll give you an overview of the app and show you how to set it up and run it on various devices.
 
+<hr>
 
 
 ## Description

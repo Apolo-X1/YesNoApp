@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:yes_no_app/domain/entities/message.dart';
+import 'package:yes_no_app/presentation/providers/chat_providers.dart';
 import 'package:yes_no_app/presentation/widgets/chat/her_message_buble.dart';
 import 'package:yes_no_app/presentation/widgets/chat/my_message_buble.dart';
 import 'package:yes_no_app/presentation/widgets/shared/message_field_box.dart';
@@ -10,13 +13,13 @@ class ChatScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Ella ✨'),
+        title: const Text('David 🍂'),
         centerTitle: false,
         leading: const Padding(
           padding: EdgeInsets.all(4.0),
           child: CircleAvatar(
             backgroundImage: NetworkImage(
-                'https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_faces,z_0.7,q_auto:eco,dpr_1/v1453796528/agz0nv959kufb1v7z0bx.jpg'),
+                'https://avatars.githubusercontent.com/u/90360699?v=4'),
           ),
         ),
       ),
@@ -28,6 +31,8 @@ class ChatScreen extends StatelessWidget {
 class _ChatView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final chatProvider = context.watch<ChatProvider>();
+
     return SafeArea(
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 10),
@@ -35,17 +40,22 @@ class _ChatView extends StatelessWidget {
           children: [
             Expanded(
               child: ListView.builder(
-                itemCount: 100,
+                controller: chatProvider.chatScrollController,
+                itemCount: chatProvider.messageList.length,
                 itemBuilder: (context, index) {
-                  return (index % 2 == 0)
-                      ? const HerMessageBuble()
-                      : const MyMessageBuble();
+                  final message = chatProvider.messageList[index];
+
+                  return (message.fromWho == FromWho.her)
+                      ?  HerMessageBuble(message: message)
+                      : MyMessageBuble(message: message);
                 },
               ),
             ),
 
             //Caja mensajes
-            const MessageFieldBox()
+            MessageFieldBox(
+              onValue: (value) => chatProvider.sendMessage(value),
+            )
           ],
         ),
       ),

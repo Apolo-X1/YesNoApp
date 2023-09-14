@@ -1,3 +1,11 @@
+<div align="center">
+  <img src="./assets/img/sa (1).jpeg" alt="">
+</div>
+ㅤ
+<div align="center">
+  <img src="./assets/img/sa (2).jpeg" alt="">
+</div>
+
 ## Interactive Chat with Memes - Flutter App
 
 Welcome to the documentation of the Interactive Chat with Memes application! In this guide, we'll give you an overview of the app and show you how to set it up and run it on various devices.
